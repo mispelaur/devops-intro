@@ -2,6 +2,7 @@ FROM iron/ruby
 MAINTAINER mispelaur and d903xp your@email.com
 RUN apk --update add ruby-rdoc ruby-irb
 RUN gem install bundler
+RUN curl http://unicornpoo.herokuapp.com/updateteam3-scuzzbuckets/complete
 ADD /unicorn /unicorn
 EXPOSE 8080
 WORKDIR /unicorn
