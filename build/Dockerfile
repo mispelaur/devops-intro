@@ -1,5 +1,5 @@
 FROM iron/ruby
-MAINTAINER mispelaur and d903xp <your@email.com>
+MAINTAINER mispelaur and d903xp your@email.com
 RUN apk --update add ruby-rdoc ruby-irb
 RUN gem install bundler
 ADD /unicorn /unicorn
